@@ -4,7 +4,7 @@ Site institucional responsivo do salão **Visual Spa Hair**, localizado no centr
 
 ## Visualizar o site
 
-[Abrir Visual Spa Hair](https://visual-spa-hair-foz.eduardogps2503.chatgpt.site)
+[Abrir Visual Spa Hair](https://frt553.github.io/visual-spa-hair/)
 
 ## Páginas
 
