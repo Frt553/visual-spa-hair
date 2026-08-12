@@ -40,3 +40,6 @@ dev.err.log
 /.wrangler/
 /outputs/
 /work/
+*.tsbuildinfo
+responsive-test.log
+responsive-test.err.log
