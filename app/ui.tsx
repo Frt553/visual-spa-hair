@@ -28,7 +28,7 @@ export function SiteFooter() {
   </div><div className="wrap footer-bottom"><span>© {new Date().getFullYear()} Visual Spa Hair</span><span>Foz do Iguaçu · Paraná</span></div></footer>;
 }
 
-export function WhatsAppFloat() { return <a className="whatsapp-float" href="https://api.whatsapp.com/send?phone=5545998361763&text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar." target="_blank" rel="noreferrer" aria-label="Agendar pelo WhatsApp"><b>✦</b><span>Agende pelo WhatsApp</span></a>; }
+export function WhatsAppFloat() { return <a className="whatsapp-float" href="https://api.whatsapp.com/send?phone=5545998361763&text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar." target="_blank" rel="noreferrer" aria-label="Agendar pelo WhatsApp"><b>WA</b><span>Agendar</span></a>; }
 
 export function ServiceCard({ number, title, text }: { number: string; title: string; text: string }) {
   return <article className="service-card"><span>{number}</span><div><h3>{title}</h3><p>{text}</p></div><b>↗</b></article>;
