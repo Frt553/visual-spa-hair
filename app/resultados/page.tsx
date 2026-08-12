@@ -1,21 +1,3 @@
 import Image from "next/image";
-
-const photos = [
-  ["/media/IMG-20240621-WA0041.jpg.jpeg", "Loiro com ondas", "Mechas"],
-  ["/media/IMG-20231221-WA0051.jpg.jpeg", "Castanho iluminado", "Coloração"],
-  ["/media/IMG-20240403-WA0020.jpg.jpeg", "Corte bob iluminado", "Corte & cor"],
-  ["/media/IMG-20240606-WA0030.jpg.jpeg", "Loiro liso", "Mechas"],
-  ["/media/IMG-20231025-WA0005.jpg.jpeg", "Ruivo acobreado", "Coloração"],
-  ["/media/IMG-20240410-WA0016.jpg.jpeg", "Castanho alinhado", "Tratamento"],
-  ["/media/IMG-20240621-WA0040.jpg.jpeg", "Ondas iluminadas", "Penteado"],
-  ["/media/IMG-20240207-WA0011.jpg.jpeg", "Brilho e movimento", "Tratamento"],
-];
-
-export default function Resultados() {
-  return <main><section className="page-hero gallery-hero"><div className="wrap page-hero-inner"><p className="eyebrow light">Resultados reais</p><h1>Beleza com<br /><em>identidade.</em></h1><p>Cores, texturas e movimentos feitos para cada pessoa.</p></div></section>
-    <section className="section wrap"><div className="gallery-heading"><div><p className="eyebrow">Nosso trabalho</p><h2>Detalhes que transformam.</h2></div><a className="instagram-link" href="https://www.instagram.com/visual_spahair/" target="_blank" rel="noreferrer">Veja mais no Instagram ↗</a></div>
-      <div className="gallery-grid">{photos.map(([src, alt, tag], i) => <figure className={i === 1 || i === 6 ? "gallery-item featured" : "gallery-item"} key={src}><Image src={src} alt={alt} fill sizes="(max-width: 650px) 100vw, 33vw" /><figcaption><span>{tag}</span><b>{alt}</b></figcaption></figure>)}</div>
-    </section>
-    <section className="video-section section"><div className="wrap"><div className="section-heading horizontal"><div><p className="eyebrow light">Em movimento</p><h2>Um pouco da experiência.</h2></div><p className="muted-light">Aperte o play e acompanhe alguns momentos do salão.</p></div><div className="video-grid">{["0009", "0010", "0012"].map((id, i) => <div className="video-card" key={id}><video controls playsInline preload="metadata"><source src={`/media/VID-20260323-WA${id}.mp4`} type="video/mp4" /></video><span>0{i + 1} · Visual Spa Hair</span></div>)}</div></div></section>
-  </main>;
-}
+const work=[["/media/IMG-20231025-WA0005.jpg.jpeg","Coloração","Ruivo acobreado"],["/media/IMG-20240621-WA0041.jpg.jpeg","Mechas","Loiro com ondas"],["/media/IMG-20231221-WA0051.jpg.jpeg","Coloração","Castanho iluminado"],["/media/IMG-20240403-WA0020.jpg.jpeg","Cor e forma","Curto iluminado"],["/media/IMG-20240606-WA0030.jpg.jpeg","Mechas","Loiro alinhado"],["/media/IMG-20240410-WA0016.jpg.jpeg","Tratamento","Brilho e alinhamento"],["/media/IMG-20240621-WA0040.jpg.jpeg","Penteado","Ondas marcadas"],["/media/IMG-20240207-WA0011.jpg.jpeg","Coloração","Castanho com movimento"]];
+export default function Resultados(){return <main><section className="inner-mast results-mast"><div className="wrap"><p className="overline light">Portfólio</p><h1>Feito no<br /><i>Visual.</i></h1><p>Resultados reais produzidos pela equipe em Foz do Iguaçu.</p></div></section><section className="results-gallery section wrap"><div className="gallery-intro"><p className="overline">Seleção de trabalhos</p><h2>Cor, forma<br />e acabamento.</h2><a className="line-link" href="https://www.instagram.com/visual_spahair/" target="_blank" rel="noreferrer">Ver Instagram</a></div><div className="gallery-masonry">{work.map(([src,cat,name],i)=><figure className={i===0||i===5?"large":""} key={src}><Image src={src} alt={name} fill sizes="(max-width: 650px) 100vw, 35vw" /><figcaption><span>{cat}</span><b>{name}</b></figcaption></figure>)}</div></section><section className="motion-section section"><div className="wrap"><div className="motion-head"><p className="overline light">No salão</p><h2>Processo em movimento.</h2></div><div className="motion-grid">{["0009","0012"].map(id=><video controls playsInline preload="metadata" key={id}><source src={`/media/VID-20260323-WA${id}.mp4`} type="video/mp4" /></video>)}</div></div></section></main>}
