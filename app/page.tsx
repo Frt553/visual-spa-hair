@@ -26,7 +26,7 @@ export default function Home() {
     </div></section>
 
     <section className="portfolio-home section wrap"><div className="portfolio-title"><p className="overline">Portfólio</p><h2>Trabalho real.<br />Resultado real.</h2><p>Uma seleção de cores, acabamentos e penteados realizados no salão.</p></div><div className="portfolio-collage">
-      <figure className="port-a"><Image src="/media/IMG-20231025-WA0005.jpg.jpeg" alt="Cabelo ruivo acobreado" fill sizes="(max-width: 700px) 100vw, 38vw" /><figcaption>Coloração · Ruivo</figcaption></figure>
+      <figure className="port-a"><Image src="/media/cabelo-ruivo-1.jpg" alt="Cabelo ruivo cobre" fill sizes="(max-width: 700px) 100vw, 38vw" /><figcaption>Coloração · Ruivo</figcaption></figure>
       <figure className="port-b"><Image src="/media/IMG-20240621-WA0040.jpg.jpeg" alt="Penteado ondulado" fill sizes="(max-width: 700px) 75vw, 26vw" /><figcaption>Penteado · Ondas</figcaption></figure>
       <figure className="port-c"><Image src="/media/IMG-20240606-WA0030.jpg.jpeg" alt="Cabelo loiro alinhado" fill sizes="(max-width: 700px) 75vw, 26vw" /><figcaption>Mechas · Loiro</figcaption></figure>
       <figure className="port-d"><Image src="/media/IMG-20240403-WA0020.jpg.jpeg" alt="Corte curto iluminado" fill sizes="(max-width: 700px) 75vw, 26vw" /><figcaption>Cor · Iluminação</figcaption></figure>
