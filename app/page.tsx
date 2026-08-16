@@ -7,13 +7,13 @@ const wa = waLink("Olá! Vim pelo site e gostaria de agendar um horário.");
 export default function Home() {
   return <main>
     <section className="cinema-hero">
-      <Image src="/media/IMG-20240621-WA0041.jpg.jpeg" alt="Mechas loiras em cabelo ondulado" fill priority sizes="100vw" style={{ objectFit: "cover" }} />
+      <Image src="/media/foto-capa.jpg" alt="Mechas loiras em cabelo ondulado" fill priority sizes="100vw" style={{ objectFit: "cover" }} />
       <div className="cinema-shade" />
       <div className="wrap cinema-content"><p className="overline light">Salão de beleza · Foz do Iguaçu</p><h1>Beleza começa<br />com <i>cuidado.</i></h1><div className="cinema-bottom"><p>Coloração, mechas, progressiva, mega hair e terapia capilar com avaliação individual.</p><a className="outline-button" href={wa} target="_blank" rel="noreferrer">Agendar atendimento</a></div></div>
       <div className="cinema-count"><b>24</b><span>anos</span></div>
     </section>
 
-    <div className="service-marquee" aria-label="Principais serviços"><div>Mechas <b>•</b> Coloração <b>•</b> Progressiva <b>•</b> Mega hair <b>•</b> Terapia capilar <b>•</b> Escovas e penteados</div></div>
+    <div className="service-marquee" aria-label="Principais serviços"><div>Cortes <b>•</b> Mechas <b>•</b> Coloração <b>•</b> Progressiva <b>•</b> Mega hair <b>•</b> Terapia capilar <b>•</b> Escovas e penteados</div></div>
 
     <section className="studio-intro section wrap"><div><p className="overline">Visual Spa Hair</p><h2>Um salão com história.<br />Um atendimento para cada pessoa.</h2></div><div className="intro-body"><p>Desde 2002, cuidamos de cabelos em Foz do Iguaçu. O trabalho combina experiência prática, diagnóstico e técnicas escolhidas de acordo com o fio, o estilo e a rotina de cada cliente.</p><Link className="line-link" href="/sobre">Conheça nossa história</Link></div></section>
 
@@ -21,7 +21,7 @@ export default function Home() {
       <div className="signature-grid">
         <article><div className="signature-photo"><Image src="/media/IMG-20240606-WA0030.jpg.jpeg" alt="Resultado de mechas loiras" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Cor & mechas</h3><p>Coloração global, retoque, morena iluminada e loiros personalizados.</p></article>
         <article><div className="signature-photo"><Image src="/media/IMG-20240410-WA0016.jpg.jpeg" alt="Resultado de cabelo alinhado" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Forma & extensão</h3><p>Progressiva, escovas, penteados e manutenção de mega hair.</p></article>
-        <article><div className="signature-photo"><Image src="/media/IMG-20240410-WA0039.jpg.jpeg" alt="Avaliação de couro cabeludo" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Saúde capilar</h3><p>Tratamentos e terapia capilar para mulheres e homens.</p></article>
+        <article><div className="signature-photo"><Image src="/media/foto-saude-capilar.jpg" alt="Aplicação de tratamento capilar" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Saúde capilar</h3><p>Tricoscopia, tratamentos e terapia capilar para mulheres e homens.</p></article>
       </div>
     </div></section>
 

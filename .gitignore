@@ -43,3 +43,7 @@ dev.err.log
 *.tsbuildinfo
 responsive-test.log
 responsive-test.err.log
+
+# local export scratch (regenerated on demand, not part of the deployed app)
+/hostgator-export/
+/*.zip
