@@ -13,20 +13,20 @@ export default function Home() {
       <div className="cinema-count"><b>24</b><span>anos</span></div>
     </section>
 
-    <div className="service-marquee" aria-label="Principais serviços"><div>Cortes <b>•</b> Mechas <b>•</b> Coloração <b>•</b> Progressiva <b>•</b> Mega hair <b>•</b> Terapia capilar <b>•</b> Make <b>•</b> Consultoria capilar <b>•</b> Escovas e penteados</div></div>
+    <div className="service-marquee" aria-label="Principais serviços"><div>Cortes <b>•</b> Mechas <b>•</b> Coloração <b>•</b> Progressiva <b>•</b> Mega hair <b>•</b> Terapia capilar <b>•</b> Make <b>•</b> Consultoria capilar <b>•</b> Escovas e penteados <b>•</b> Masculino e feminino</div></div>
 
     <section className="studio-intro section wrap"><div><p className="overline">Visual Spa Hair</p><h2>Um salão com história.<br />Um atendimento para cada pessoa.</h2></div><div className="intro-body"><p>Desde 2002, cuidamos de cabelos em Foz do Iguaçu. O trabalho combina experiência prática, diagnóstico e técnicas escolhidas de acordo com o fio, o estilo e a rotina de cada cliente.</p><Link className="line-link" href="/sobre">Conheça nossa história</Link></div></section>
 
-    <section className="signature-services section"><div className="wrap"><div className="editorial-heading"><p className="overline light">Especialidades</p><h2>O que fazemos<br /><i>todos os dias.</i></h2><Link className="line-link light-link" href="/servicos">Menu completo de serviços</Link></div>
+    <section className="signature-services section"><div className="wrap"><p className="overline light">Especialidades</p>
       <div className="signature-grid">
+        <article><div className="signature-photo"><Image src="/media/foto-saude-capilar.jpg" alt="Aplicação de tratamento capilar" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Saúde capilar</h3><p>Tricoscopia, tratamentos e terapia capilar para mulheres e homens.</p></article>
         <article><div className="signature-photo"><Image src="/media/IMG-20240606-WA0030.jpg.jpeg" alt="Resultado de mechas loiras" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Cor & mechas</h3><p>Coloração global, retoque, morena iluminada e loiros personalizados.</p></article>
         <article><div className="signature-photo"><Image src="/media/IMG-20240410-WA0016.jpg.jpeg" alt="Resultado de cabelo alinhado" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Forma & extensão</h3><p>Progressiva, escovas, penteados e manutenção de mega hair.</p></article>
-        <article><div className="signature-photo"><Image src="/media/foto-saude-capilar.jpg" alt="Aplicação de tratamento capilar" fill sizes="(max-width: 700px) 88vw, 32vw" /></div><h3>Saúde capilar</h3><p>Tricoscopia, tratamentos e terapia capilar para mulheres e homens.</p></article>
       </div>
     </div></section>
 
     <section className="portfolio-home section wrap"><div className="portfolio-title"><p className="overline">Portfólio</p><h2>Trabalho real.<br />Resultado real.</h2><p>Uma seleção de cores, acabamentos e penteados realizados no salão.</p></div><div className="portfolio-collage">
-      <figure className="port-a"><Image src="/media/cabelo-ruivo-1.jpg" alt="Cabelo ruivo cobre" fill sizes="(max-width: 700px) 100vw, 38vw" /><figcaption>Coloração · Ruivo</figcaption></figure>
+      <figure className="port-a"><Image src="/media/cabelo-ruivo-1.jpg" alt="Cabelo ruivo dourado" fill sizes="(max-width: 700px) 100vw, 38vw" /><figcaption>Coloração · Ruivo</figcaption></figure>
       <figure className="port-b"><Image src="/media/IMG-20240621-WA0040.jpg.jpeg" alt="Penteado ondulado" fill sizes="(max-width: 700px) 75vw, 26vw" /><figcaption>Penteado · Ondas</figcaption></figure>
       <figure className="port-c"><Image src="/media/IMG-20240606-WA0030.jpg.jpeg" alt="Cabelo loiro alinhado" fill sizes="(max-width: 700px) 75vw, 26vw" /><figcaption>Mechas · Loiro</figcaption></figure>
       <figure className="port-d"><Image src="/media/IMG-20240403-WA0020.jpg.jpeg" alt="Corte curto iluminado" fill sizes="(max-width: 700px) 75vw, 26vw" /><figcaption>Cor · Iluminação</figcaption></figure>
