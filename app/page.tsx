@@ -20,9 +20,7 @@ export default function Home() {
     <section className="signature-services section"><div className="wrap"><p className="overline light">Especialidades</p>
       <div className="signature-grid">
         <article><div className="signature-photo"><Image src="/media/foto-saude-capilar.jpg" alt="Aplicação de tratamento capilar" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Saúde capilar</h3><p>Tricoscopia, tratamentos e terapia capilar para mulheres e homens.</p></article>
-        <article><div className="signature-photo"><Image src="/media/terapia-capilar.jpg" alt="Terapia capilar: alopecias, psoríase, dermatites e quedas capilares" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Terapia capilar</h3><p>Alopecias, psoríase, dermatites, queda pós-gravítica, oleosidade e pós-implante.</p></article>
-        <article><div className="signature-photo"><Image src="/media/IMG-20240606-WA0030.jpg.jpeg" alt="Resultado de mechas loiras" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Cor & mechas</h3><p>Coloração global, retoque, morena iluminada e loiros personalizados.</p></article>
-        <article><div className="signature-photo"><Image src="/media/IMG-20240410-WA0016.jpg.jpeg" alt="Resultado de cabelo alinhado" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Forma & extensão</h3><p>Progressiva, escovas, penteados e manutenção de mega hair.</p></article>
+        <article><div className="signature-photo"><Image src="/media/tricoscopia-terapiacapilar.jpg" alt="Exame de tricoscopia" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Terapia capilar</h3><p>Alopecias, psoríase, dermatites, queda pós-gravítica, oleosidade e pós-implante.</p></article>
       </div>
     </div></section>
 
