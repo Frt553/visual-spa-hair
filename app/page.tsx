@@ -13,7 +13,7 @@ export default function Home() {
       <div className="cinema-count"><b>24</b><span>anos</span></div>
     </section>
 
-    <div className="service-marquee" aria-label="Principais serviços"><div className="marquee-photo"><Image src="/media/cabelos.png" alt="Galeria de resultados do salão" width={340} height={421} /></div><div className="marquee-text">Cortes <b>•</b> Mechas <b>•</b> Coloração <b>•</b> Progressiva <b>•</b> Mega hair <b>•</b> Terapia capilar <b>•</b> Make <b>•</b> Consultoria capilar <b>•</b> Escovas e penteados <b>•</b> Masculino e feminino</div></div>
+    <div className="service-marquee" aria-label="Principais serviços"><div className="wrap marquee-inner"><div className="marquee-photo"><Image src="/media/cabelos.png" alt="Galeria de resultados do salão" width={340} height={421} /></div><div className="marquee-text">Cortes <b>•</b> Mechas <b>•</b> Coloração <b>•</b> Progressiva <b>•</b> Mega hair <b>•</b> Terapia capilar <b>•</b> Make <b>•</b> Consultoria capilar <b>•</b> Escovas e penteados <b>•</b> Masculino e feminino</div></div></div>
 
     <section className="studio-intro section wrap"><div><p className="overline">Visual Spa Hair</p><h2>Um salão com história.<br />Um atendimento para cada pessoa.</h2></div><div className="intro-body"><p>Desde 2002, cuidamos de cabelos em Foz do Iguaçu. O trabalho combina experiência prática, diagnóstico e técnicas escolhidas de acordo com o fio, o estilo e a rotina de cada cliente.</p><Link className="line-link" href="/sobre">Conheça nossa história</Link></div></section>
 
