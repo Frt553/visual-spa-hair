@@ -20,7 +20,7 @@ export default function Home() {
     <section className="signature-services section"><div className="wrap"><p className="overline light">Especialidades</p>
       <div className="signature-grid">
         <article><div className="signature-photo"><Image src="/media/foto-saude-capilar.jpg" alt="Aplicação de tratamento capilar" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Saúde capilar</h3><p>Tricoscopia, tratamentos e terapia capilar para mulheres e homens.</p></article>
-        <article><div className="signature-photo"><Image src="/media/tricoscopia-terapiacapilar.jpg" alt="Exame de tricoscopia" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Terapia capilar</h3><p>Alopecias, psoríase, dermatites, queda pós-gravítica, oleosidade e pós-implante.</p></article>
+        <article><div className="signature-photo"><Image src="/media/tricoscopia-terapiacapilar.jpg" alt="Exame de tricoscopia" fill sizes="(max-width: 700px) 88vw, 46vw" /></div><h3>Terapia capilar</h3><p>Tricoscopia, alopecias, psoríase, dermatites, queda pós-gravítica, oleosidade e pós-implante.</p></article>
       </div>
     </div></section>
 
